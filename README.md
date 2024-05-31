@@ -1,3 +1,5 @@
+![NVIDIA_Overlay_6spUxNFbmz](https://github.com/OrelStealth/cs2-hammer-dev-textures/assets/10109891/d4112e4d-4bab-4280-a4d8-1efd8ae877ec)
+
 I made my own dev textures with surface properties for more comfortable blocking, since default "reflective30b" is not enough sometimes. When it comes to test bullet penetration or sound planning, these textures might be quite handy!
 
 **How to use:**
