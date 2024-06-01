@@ -2,7 +2,7 @@
 
 Layer0
 {
-	shader "csgo_vertexlitgeneric.vfx"
+	shader "simple.vfx"
 
 	//---- Per-Instance Tint Mask ----
 	F_TINT_MASK 1

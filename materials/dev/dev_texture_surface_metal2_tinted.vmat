@@ -2,7 +2,7 @@
 
 Layer0
 {
-	shader "csgo_vertexlitgeneric.vfx"
+	shader "simple.vfx"
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionScale "0.000"
