@@ -2,7 +2,10 @@
 
 Layer0
 {
-	shader "simple.vfx"
+	shader "csgo_vertexlitgeneric.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionScale "0.000"
@@ -38,6 +41,10 @@ Layer0
 	g_nTextureAddressModeU "0" // Wrap
 	g_nTextureAddressModeV "0" // Wrap
 
+	//---- Translucent ----
+	g_flOpacityScale "0.400"
+	TextureTranslucency ""
+
 	SystemAttributes
 	{
 		WorldMappingWidth "64"
@@ -71,6 +78,9 @@ Layer0
 		{
 		}
 		"Texture Address Mode"
+		{
+		}
+		"Translucent"
 		{
 		}
 	}

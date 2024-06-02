@@ -2,9 +2,13 @@
 
 Layer0
 {
-	shader "simple.vfx"
+	shader "csgo_vertexlitgeneric.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionScale "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
@@ -23,15 +27,23 @@ Layer0
 	g_bFogEnabled "1"
 
 	//---- Lighting ----
-	g_flMetalness "0.000"
+	TextureMetalness ""
 	TextureRoughness "materials/default/default_rough.tga"
 
 	//---- Normal Map ----
+	g_flNormalTexCoordRotation "0.000"
+	g_vNormalTexCoordCenter "[0.500 0.500]"
+	g_vNormalTexCoordOffset "[0.000 0.000]"
+	g_vNormalTexCoordScale "[1.000 1.000]"
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
 	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flOpacityScale "0.400"
+	TextureTranslucency ""
 
 	SystemAttributes
 	{
@@ -67,6 +79,9 @@ Layer0
 		{
 		}
 		"Texture Address Mode"
+		{
+		}
+		"Translucent"
 		{
 		}
 	}

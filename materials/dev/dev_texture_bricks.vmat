@@ -2,10 +2,7 @@
 
 Layer0
 {
-	shader "simple.vfx"
-
-	//---- Per-Instance Tint Mask ----
-	F_TINT_MASK 1
+	shader "csgo_vertexlitgeneric.vfx"
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionScale "0.000"
@@ -22,13 +19,12 @@ Layer0
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 	TextureColor "materials/dev/dev_texture_bricks.jpg"
-	TextureTintMask "materials/dev/dev_texture_bricks_mask.jpg"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
 	//---- Lighting ----
-	TextureMetalness "materials/default/default_metal.tga"
+	TextureMetalness ""
 	TextureRoughness "materials/default/default_rough.tga"
 
 	//---- Normal Map ----
