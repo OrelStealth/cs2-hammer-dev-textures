@@ -1,0 +1,101 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_vertexlitgeneric.vfx"
+
+	//---- Per-Instance Tint Mask ----
+	F_TINT_MASK 1
+
+	//---- Self Illum ----
+	F_SELF_ILLUM 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionScale "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/dev/dev_texture_emissivelight_hs_trim.jpg"
+	TextureTintMask "materials/dev/dev_texture_emissivelight_hs_trim_mask.jpg"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	TextureMetalness "materials/default/default_metal.tga"
+	TextureRoughness "materials/default/default_rough.tga"
+
+	//---- Normal Map ----
+	g_flNormalTexCoordRotation "0.000"
+	g_vNormalTexCoordCenter "[0.500 0.500]"
+	g_vNormalTexCoordOffset "[0.000 0.000]"
+	g_vNormalTexCoordScale "[1.000 1.000]"
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Self Illum ----
+	g_flSelfIllumAlbedoFactor "1.000"
+	g_flSelfIllumBrightness "1.000"
+	g_flSelfIllumScale "1.000"
+	g_vSelfIllumScrollSpeed "[0.000 0.000]"
+	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureSelfIllumMask "materials/dev/dev_texture_emissivelight_hs_trim_mask.jpg"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	SystemAttributes
+	{
+		WorldMappingWidth "64"
+		WorldMappingHeight "64"
+		PhysicsSurfaceProperties "glass"
+	}
+
+	ToolAttributes
+	{
+		UVSet1FastTextureOp "1"
+		SubrectDefinition "materials/trim/trim_masterlayout_01.rect"
+	}
+
+	UnusedVariables
+	{
+		"g_flOcclusionCullingBoundsScale" "1"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Self Illum"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}
