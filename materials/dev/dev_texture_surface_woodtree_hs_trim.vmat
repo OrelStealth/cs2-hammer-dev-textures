@@ -18,13 +18,13 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/dev/dev_texture_surface_wood_hs_trim.jpg"
+	TextureColor "materials/dev/dev_texture_surface_woodtree_hs_trim.jpg"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
 	//---- Lighting ----
-	TextureMetalness ""
+	TextureMetalness "materials/default/default_metal.tga"
 	TextureRoughness "materials/default/default_rough.tga"
 
 	//---- Normal Map ----

@@ -18,7 +18,7 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/dev/dev_texture_surface_wood2.jpg"
+	TextureColor "materials/dev/dev_texture_surface_woodtree2.jpg"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
